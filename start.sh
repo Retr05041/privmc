@@ -21,7 +21,7 @@ if [[ "$_java" ]]; then
 fi
 
 if ! [ -f "spigot-1.20.6.jar" ]; then
-    "$_java" -jar BuildTools.jar &
+    "$_java" -jar BuildTools.jar --rev 1.20.6 &
     wait $!
 fi
 

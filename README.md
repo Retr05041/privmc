@@ -1,10 +1,9 @@
 # Spigot (1.20.6) & Skyblock (2.1) Server
 Installation Steps:
-- `java -jar BuildTools.jar`
 - `./start`
 - Sign eula.txt
 - `./start`
-- Whitelist yourself, and your friends, then join and add to custom groups (Check Essentials plugins for config)
+- Whitelist yourself and your friends on the server console, then join and add to custom groups (Check Essentials plugins for config)
 
 ### How to add Users to groups
 `/lp user/group <user|group> parent set <group> [context...]`
