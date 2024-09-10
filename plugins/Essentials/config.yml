@@ -243,13 +243,10 @@ mute-commands:
 #
 # To enable this feature, please set use-bukkit-permissions to false.
 player-commands:
-  - afk
-  - back
   - help
   - tpa
   - tpaccept
   - tpdeny
-  - setwarp
 
 # Use this option to force superperms-based permissions handler regardless of detected installed perms plugin.
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
@@ -292,7 +289,7 @@ enabledSigns:
   #- sell
   #- trade
   #- free
-  - warp
+  #- warp
   #- kit
   #- mail
   #- enchant
