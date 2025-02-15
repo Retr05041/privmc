@@ -1,0 +1,36 @@
+# Ignore everything in the server folder except JARs
+!*.jar
+
+# Ignore logs, cache, and runtime files
+logs/
+cached-plugins/
+crash-reports/
+eula.txt
+usercache.json
+server-icon.png
+banned-players.json
+banned-ips.json
+ops.json
+whitelist.json
+permissions.yml
+
+# Ignore world files
+temp/
+world/
+world_nether/
+world_the_end/
+
+# Ignore non-JAR files in the plugins folder
+plugins/*/
+!plugins/*.jar
+
+# Ignore Spigot build folders
+apache-maven-*
+BuildData/*
+Bukkit/*
+CraftBukkit/*
+Spigot/*
+work/*
+
+# Explicitly remove the server jar
+spigot-1.21.4.jar
