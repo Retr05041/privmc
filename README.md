@@ -1,28 +1,12 @@
-# Spigot (1.20.6) & Skyblock (2.1) Server
+# Spigot (1.21.4)
 Installation Steps:
 - `./start`
 - Sign eula.txt
 - `./start`
-- Whitelist yourself and your friends on the server console, then join and add to custom groups (Check Essentials plugins for config)
+- Whitelist yourself and your friends on the server console
 
-### How to add Users to groups
-`/lp user/group <user|group> parent set <group> [context...]`
+# [Chunky](https://www.spigotmc.org/resources/chunky.81534/)
 
-### Plugin notes
-Clearlag, EssentialsX/EssentialsXChat, LuckPerms, and Vault are all for server upkeep
-
-LuckPerms handle permissions - should be simple as ever, everyone has very limited capabilities
-
-Minepacks: Configurable backpacks
-- lp group default permission set backpack.use true
-
-VeinMiner: Saves players time mining
-- lp group default permission set veinminer.veinminer.* true
-
-BetterChairs: Chairs man
-- "Every stair, every half block or even every block can be a chair if you want it to!"
-
-TeePeeRequests: Good ol' tpa
-
-BreweryX: Get drunk
-- TODO: Setup config
+To preload your world as a square centered at 0,0 with a radius of 1000 chunks:
+- `chunky radius 1000`
+- `chunky start`
