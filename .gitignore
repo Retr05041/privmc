@@ -34,3 +34,6 @@ work/*
 
 # Explicitly remove the server jar
 spigot-1.21.4.jar
+
+# Any server icons can stay
+!server-icon.png
